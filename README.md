@@ -6,18 +6,19 @@ This repository presents an LLM-based application for collaborative learning in 
 
 This application was developed in **Google Colab** due to hardware constraints. Running LLM inference locally requires significant computational resources that exceed typical CPU capabilities, because: 
 
-**System Configuration Used:**
+**My Local System Configuration:**
 - CPU: 12th Gen Intel(R) Core(TM) i5-1235U (1.30 GHz)
 - Issue: Local LLM inference and embeddings crash the runtime on this hardware
 
 **Graphical UI Option:**
-If a graphical user interface is required, you can use **LocalTunnel** (with Node modules) or **Ngrok** to redirect a public link from Colab to an external URL, since Colab does not natively support graphical user interfaces.
+If a graphical user interface is required, you can use **LocalTunnel** (with Node modules npx) or **Ngrok** to redirect a public link from Colab to an external URL, since Colab does not natively support graphical user interfaces.
 
 ## 📁 Directory Structure
 
 ```
 .
 ├── README.md
+├── Sherin Thomas, Sudhanshu Passi - PyTorch Deep Learning Hands-On_ Build CNNs, RNNs, GANs, reinforcement learning, and more, quickly and easily (2019, Packt Publishing).pdf
 ├── arch_prompt.md
 ├── concept.md
 ├── Code/
@@ -124,6 +125,7 @@ This application implements three approaches to collaborative learning:
 - `arch_prompt.md`: Architecture and prompt design details
 - `concept.md`: Conceptual framework and pedagogical approach
 - `Hybrid/`, `No_RAG/`, `RAG/`: Sample interaction results for each approach (prompts, results)
+- `Sherin Thomas, Sudhanshu Passi - PyTorch Deep Learning Hands-On_ Build CNNs, RNNs, GANs, reinforcement learning, and more, quickly and easily (2019, Packt Publishing).pdf`: used as a course material in RAG systems.
 
 ## 🔬 Research Context
 
@@ -131,8 +133,7 @@ This work was developed for the **PhD Trial Task ALMA**.
 
 
 ## 📧 Contact
-
-Ayoub EL KHAIARI: ayoub.elkhaiari@usmba.ac.ma
+     ayoub.elkhaiari@usmba.ac.ma
 ---
 
 **Note:** This is an educational tool designed to facilitate learning through dialogue, not a replacement for instructors.
