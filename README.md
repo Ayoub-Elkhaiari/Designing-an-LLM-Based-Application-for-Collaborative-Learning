@@ -38,6 +38,7 @@ If a graphical user interface is required, you can use **LocalTunnel** (with Nod
 ## 🚀 Quick Start
 
 To run the project, simply execute all cells in `Code/ALMA.ipynb` sequentially. The notebook contains detailed instructions for each step.
+make sure that the pdf `Sherin Thomas, Sudhanshu Passi - PyTorch Deep Learning Hands-On_ Build CNNs, RNNs, GANs, reinforcement learning, and more, quickly and easily (2019, Packt Publishing).pdf` in the `content/` in Google Colab.
 
 ## 📦 Installation & Setup
 
